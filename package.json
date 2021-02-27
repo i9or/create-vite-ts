@@ -1,0 +1,22 @@
+{
+  "name": "create-vite-ts",
+  "version": "0.0.1",
+  "description": "Minimal Vite TypeScript Starter Template",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i9or/create-vite-ts.git"
+  },
+  "keywords": [
+    "vite",
+    "typescript",
+    "template"
+  ],
+  "author": "Igor <dont@bzzr.me> (https://ignorethis.page/)",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/i9or/create-vite-ts/issues"
+  },
+  "homepage": "https://github.com/i9or/create-vite-ts#readme"
+}
