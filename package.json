@@ -1,9 +1,9 @@
 {
   "name": "create-vite-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minimal Vite TypeScript Starter Template",
   "bin": {
-    "create-vite-ts": "./index.js"
+    "create-vite-ts": "index.js"
   },
   "main": "index.js",
   "scripts": {},
