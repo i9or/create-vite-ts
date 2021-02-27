@@ -5,8 +5,15 @@
   "bin": {
     "create-vite-ts": "index.js"
   },
+  "files": [
+    "index.js",
+    "template"
+  ],
   "main": "index.js",
   "scripts": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/i9or/create-vite-ts.git"
@@ -21,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/i9or/create-vite-ts/issues"
   },
-  "homepage": "https://github.com/i9or/create-vite-ts#readme"
+  "homepage": "https://github.com/i9or/create-vite-ts#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
 }

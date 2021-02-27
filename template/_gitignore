@@ -115,8 +115,10 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# WebStorm
+# IDEA
 .idea/
 
-# Template
-template/package-lock.json
+# Other
+dist-ssr
+.DS_Store
+*.local
