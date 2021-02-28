@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/i9or/create-vite-ts#readme",
   "dependencies": {
-    "enquirer": "^2.3.6"
+    "enquirer": "^2.3.6",
+    "minimist": "^1.2.5"
   }
 }
