@@ -6,11 +6,11 @@ Opinionated but minimalistic Vite TypeScript starter template for vanilla TypeSc
 
 ## Features
 
-* TypeScript
-* **WIP** Prettier + Husky + Pretty Quick
-* **WIP** PostCSS + Autoprefixer
-* **WIP** Canvas template
-* **WIP** WebGL template
+- TypeScript
+- **WIP** Prettier + Husky + Pretty Quick
+- **WIP** PostCSS + Autoprefixer
+- **WIP** Canvas template
+- **WIP** WebGL template
 
 ## Usage
 

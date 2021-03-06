@@ -7,11 +7,13 @@
   },
   "files": [
     "index.js",
-    "template-ts"
+    "template-*"
   ],
   "main": "index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "format": "prettier **/*.{js,ts,css,json,md,html} --write"
+  },
   "engines": {
     "node": ">=14.0.0"
   },
@@ -33,5 +35,9 @@
   "dependencies": {
     "enquirer": "^2.3.6",
     "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
   }
 }
