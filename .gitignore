@@ -119,4 +119,4 @@ dist
 .idea/
 
 # Template
-template/package-lock.json
+template-ts/package-lock.json

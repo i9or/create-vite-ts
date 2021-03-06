@@ -7,9 +7,10 @@
   },
   "files": [
     "index.js",
-    "template"
+    "template-ts"
   ],
   "main": "index.js",
+  "type": "module",
   "scripts": {},
   "engines": {
     "node": ">=14.0.0"
@@ -31,6 +32,6 @@
   "homepage": "https://github.com/i9or/create-vite-ts#readme",
   "dependencies": {
     "enquirer": "^2.3.6",
-    "minimist": "^1.2.5"
+    "yargs": "^16.2.0"
   }
 }
