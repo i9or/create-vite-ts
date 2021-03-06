@@ -1,12 +1,22 @@
 {
   "name": "create-vite-ts",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Minimal Vite TypeScript Starter Template",
   "bin": {
     "create-vite-ts": "index.js"
   },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "format": "prettier **/*.{js,ts,css,json,md,html} --write"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/i9or/create-vite-ts.git"
@@ -21,5 +31,13 @@
   "bugs": {
     "url": "https://github.com/i9or/create-vite-ts/issues"
   },
-  "homepage": "https://github.com/i9or/create-vite-ts#readme"
+  "homepage": "https://github.com/i9or/create-vite-ts#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  }
 }
